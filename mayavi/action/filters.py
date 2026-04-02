@@ -12,6 +12,8 @@ from mayavi.core.registry import registry
 from mayavi.core.metadata import Metadata
 from mayavi.core.pipeline_base import PipelineBase
 
+print("test")
+
 def new_class(name, bases, dict_):
     try:
         import new
